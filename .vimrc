@@ -17,3 +17,10 @@ inoremap < <><Esc>i
 inoremap jj <Esc>
 map H ^
 map L $
+
+" Faster in-line navigation
+:noremap W 5w
+:noremap E 5e
+:noremap B 5b
+:noremap J 15j
+:noremap K 15k
